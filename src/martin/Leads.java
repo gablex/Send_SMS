@@ -33,9 +33,9 @@ public class Leads {
                 email = rs.getString("email");
                 message = rs.getString("msg");
                 date = rs.getDate("dbDate");
-                recepient = "0718317877";
+                recepient = "0720XXXXXX";
                 int id=rs.getInt("id");
-                String davis="0722128477",rose="0714862457",beatrice="0710503138",rahab="0721776280",emily="0799771384",edinah="0702042137";
+                String davis="0720XXXXXX",rose="0720XXXXXX",beatrice="0720XXXXXX",rahab="0720XXXXXX",emily="0720XXXXXX",edinah="0720XXXXXX";
                 
                 //Below are details to be read by the schedule application, note tab separator which helps the schedule system to know destination
                 //, message and sender id
