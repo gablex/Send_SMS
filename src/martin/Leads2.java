@@ -80,8 +80,8 @@ public class Leads2 {
                 firstname = rs.getString("firstname");
                 organization = rs.getString("organization");
 
-                String me = "0718317877";
-                String davis = "0722128477",rose="0714862457",edinah="0702042137",rahab="0721776280", beatrice = "0710503138", emily = "0799771384", fidies = "0731669005";
+                String me = "0718XXXXXX";
+                String davis="0720XXXXXX",rose="0720XXXXXX",beatrice="0720XXXXXX",rahab="0720XXXXXX",emily="0720XXXXXX",edinah="0720XXXXXX";
                 int id = rs.getInt("id");
                 //Below are details to be read by the schedule application, note tab separator which helps the schedule system to know destination
                 //, message and sender id
