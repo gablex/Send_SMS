@@ -22,7 +22,7 @@ public class BirthDay {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection(
-                    "jdbc:mysql://192.168.1.56:3306/dbSMSCCamps", "mspace", "mspace54");
+                    "jdbc:mysql://Server:3306/database", "user", "passwd");
             psmt = con.prepareStatement(query);
             rs = psmt.executeQuery();
 
