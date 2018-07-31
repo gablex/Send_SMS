@@ -19,7 +19,7 @@ public class DriverTest {
 public static void main(String args[]){  
 try{  
 Class.forName("com.mysql.jdbc.Driver");  
-Connection con=DriverManager.getConnection("jdbc:mysql://10.240.181.14:3306/dbSMS","web","web123");  
+Connection con=DriverManager.getConnection("jdbc:mysql://Server:3306/database","user","passwd");  
 Statement stmt=con.createStatement();  
 ResultSet rs=stmt.executeQuery("select * from emp");  
 while(rs.next())  
